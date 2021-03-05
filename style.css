@@ -1,0 +1,122 @@
+body {
+
+    /* font-size: 22px; */
+
+
+    /* text-transform: lowercase; */
+
+    /* font-variant:small-caps; */
+    /* font-family:'Lucida Console', "monospace"; */
+    /* font-family:"Courier New", Courier, monospace; */
+    /* font-family: "Century Gothic"; */
+    font-family:"Courier New", Courier, monospace;
+    height: 3000px;
+
+
+    /* text-transform: uppercase; */
+
+}
+/*Transition only after page load*/
+.preload *{
+    .preload * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+    }}
+*{
+    box-sizing: border-box;
+}
+.hobbies .my-img{
+    width: 40%;
+    float: left;
+}
+.hobbies .my-img img{
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+.hobbies .my-img img:hover{
+    transform: rotateY(180deg);
+}
+.hobbies .right-cont{
+    width: 60%;
+    float: left;
+}
+.hobbies{
+    width: 1170px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: auto;
+    border: 1px dashed #999;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+}
+.hobbies .content{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border: 1px dashed #999;
+}
+.hobbies .content .icon{
+    float: left;
+    width: 16%;
+    margin-right: 2%;
+    padding-left: 10px;
+}
+.hobbies .content .icon img{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px dashed #cbcbcb;
+    border-radius: 50%;
+}
+
+.hobbies .content .text{
+    width: 82%;
+    float: left;
+}
+.hobbies .content .text h3{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    color: #115aa5;
+    word-spacing: -5px;
+}
+.hobbies .content .text p{
+    padding: 0;
+    margin-top: 5px;
+    color: #555;
+}
+div.notif{
+    width: 10px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 54px;
+    left: 484px;
+}
+
+.my-icon{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+
+}
+.my-icon img{
+    width: 50px;
+    margin: auto ;
+    margin-bottom: 10px;
+    display: block;
+}
+.my-icon div{
+    text-align: center;
+    color: #0468c7;
+
+
+}
+
+
+
+
